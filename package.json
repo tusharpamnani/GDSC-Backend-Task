@@ -1,0 +1,26 @@
+{
+  "name": "gdsc_task",
+  "version": "1.0.0",
+  "description": "weather app as a task for GDSC interviews",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tusharpamnani/GDSC-Backend-Task.git"
+  },
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "https": "^1.0.0",
+    "node-fetch": "^2.6.1",
+    "nodemon": "^3.0.1"
+  }
+}
