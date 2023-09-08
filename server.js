@@ -13,7 +13,7 @@ app.get("/", (req, res) => {
     res.render("index", { locDate: locDate,});
 });
 
-app.post("/", async (req, res) => {
+app.post("/fore-cast", async (req, res) => {
     try {
         const location = await req.body.city;
         const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=${process.env.API_KEY}&units=metric`;
