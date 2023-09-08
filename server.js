@@ -34,7 +34,7 @@ app.post("/", async (req, res) => {
     }
 });
 
-const port = https://gdsc-backend-task-37cxkrjfo-tusharpamnani.vercel.app/ || process.env.PORT;
+const port = https://gdsc-backend-task.vercel.app || process.env.PORT;
 app.listen(port, () => {
     console.log("Server has been started on port 3000");
 });
